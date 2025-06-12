@@ -1,0 +1,6 @@
+{
+    "org": "eastofeaston-cs314-testing",
+    "override_repos": [
+        "staff"
+    ]
+}
