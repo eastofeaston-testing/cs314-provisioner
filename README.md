@@ -4,7 +4,7 @@ This is a proof-of-concept provisioner for CS314 at Colorado State University.
 
 ## Why this over current methods?
 
-The current method relies on docs that get outdated as soon as new tools are written. Rather than digging through code, common needs can be listed. 
+The current method relies on docs that get outdated as soon as new tools are written. Rather than digging through code, common needs can be listed. Additionally, a powerful local state can keep track of drift and apply changes as needed, e.g. team switches.
 
 Current scripts can be added as legacy options if maintaining state via Terraform is impossible.
 
