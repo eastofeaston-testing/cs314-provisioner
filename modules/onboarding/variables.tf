@@ -1,8 +1,8 @@
 variable "username" {
-    type = string
+  type = string
 }
 
 variable "prevent_delete" {
-    type = bool
-    default = true
+  type    = bool
+  default = true
 }

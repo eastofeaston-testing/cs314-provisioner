@@ -1,7 +1,7 @@
-variable team {
-    type = string
+variable "team" {
+  type = string
 }
 
-variable members {
-    type = set(string)
+variable "members" {
+  type = set(string)
 }

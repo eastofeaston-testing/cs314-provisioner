@@ -1,7 +1,7 @@
 variable "config_json" {
-    type = string
+  type = string
 }
 
 variable "students_csv" {
-    type = string
+  type = string
 }

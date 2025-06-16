@@ -1,5 +1,5 @@
 locals {
-    tno = try(format("t%s", tonumber(var.team)), format("%s", var.team))
+  tno = try(format("t%s", tonumber(var.team)), format("%s", var.team))
 }
 
 resource "github_team" "this" {
@@ -12,5 +12,5 @@ resource "github_team_membership" "this" {
   for_each = var.members
   team_id  = github_team.this.id
   username = each.value
-  role = "member"
+  role     = "member"
 }

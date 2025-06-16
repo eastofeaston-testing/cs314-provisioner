@@ -40,7 +40,8 @@ Downsides of using Terraform:
   - Failing exits. A [destroy-time provisioner](https://developer.hashicorp.com/terraform/language/resources/provisioners/syntax#destroy-time-provisioners) might be a good safety lock.  
 
 To-do's:
-- [ ] Add organizational variable for Sprint start/finish times.
+- [x] Add organizational variable for Sprint start/finish times.
+   - [ ] Decouple from default date in `sprintboundaries` module.
 - [ ] Add [GitHub Projects](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository_project).
 - [ ] Add 't50' consideration — solo jail for toxic team members used FA24/SP25.
    - **Currently would clobber all other teams' projects.**

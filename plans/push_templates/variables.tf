@@ -1,7 +1,7 @@
-variable directory {
-    type = string
+variable "directory" {
+  type = string
 }
 
-variable teams {
-    type = string
+variable "teams" {
+  type = string
 }

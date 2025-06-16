@@ -1,28 +1,28 @@
 variable "team_id" {
-    type = string
-    default = ""
+  type    = string
+  default = ""
 }
 
 variable "attach_team" {
-    type = bool
-    default = false
+  type    = bool
+  default = false
 }
 
-variable members {
-    type = set(string)
-    default = [""]
+variable "members" {
+  type    = set(string)
+  default = [""]
 }
 
-variable add_members_variable {
-    type = bool
-    default = false
+variable "add_members_variable" {
+  type    = bool
+  default = false
 }
 
 variable "name" {
-    type = string
+  type = string
 }
 
 variable "visibility" {
-    type = string
-    default = "private"
+  type    = string
+  default = "private"
 }
