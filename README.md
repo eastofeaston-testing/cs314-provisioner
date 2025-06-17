@@ -42,7 +42,10 @@ Downsides of using Terraform:
 To-do's:
 - [x] Add organizational variable for Sprint start/finish times.
    - [ ] Decouple from default date in `sprintboundaries` module.
-- [ ] Add [GitHub Projects](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository_project).
+- [ ] ~~Add [GitHub Projects](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository_project).~~
+   - ⛔️ BLOCKED: GH provider not updated to handle projectv2 integrations.
+     - Uses GraphQL, other calls in provider do use it.
+     - Potential to patch? Maintainers MIA on the provider. 
 - [ ] Add 't50' consideration — solo jail for toxic team members used FA24/SP25.
    - **Currently would clobber all other teams' projects.**
      - Naive outputs used for bulk `git push --force origin main`.
