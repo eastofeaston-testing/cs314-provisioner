@@ -1,0 +1,13 @@
+name: test
+
+on: workflow_dispatch
+
+jobs:
+    test:
+        runs-on: [self-hosted, linux, arm64]
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Run ls
+              run: ls
